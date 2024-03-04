@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    color: #333333;
 }
 
 .all-contents {
@@ -13,7 +15,6 @@ body {
 
 .page-hero {
     display: flex;
-    overflow: hidden;
     width: 60%;
     justify-content: center;
 }
@@ -42,10 +43,6 @@ body {
     align-items: space-between;
 }
 
-.headshot-img {
-    width: 90%;
-}
-
 .anchors {
     display: flex;
     justify-content: center;
@@ -65,8 +62,19 @@ body {
 }
 
 .anchor-li {
-    background-color: white;
     text-align: center;
+    color: teal;
+}
+
+.anchor-li:visited {
+    text-align: center;
+    color: rgb(0, 90, 90);
+}
+
+.anchor-li:hover {
+    text-align: center;
+    color: rgb(0, 62, 62);
+    text-decoration: underline
 }
 
 .container {
@@ -78,6 +86,7 @@ body {
 h3 {
     padding-bottom: 0;
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 ul {
@@ -96,4 +105,49 @@ a {
     justify-content: center;
     color: #AAAAAA;
     margin-right: 30px
+}
+
+.img {
+    border-radius: 20px;
+    box-shadow: 6px 5px 15px #AAAAAA;
+    width: 70%;
+}
+
+.button {
+    margin-top: 5px;
+    background-color: teal;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #AAAAAA;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(0, 95, 95);
+}
+
+.header {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.sub-header {
+    margin-bottom: 10px;
+}
+
+.about-p {
+    margin: 0 px;
+    margin-top: 2px;
+    padding: 0px;
+}
+
+iframe {
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+ul {
+    margin-top: 10px;
 }

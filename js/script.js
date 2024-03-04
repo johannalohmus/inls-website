@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var user = 'jklohmus';
     var domain = 'unc.edu';
     var element = document.getElementById('emailPlaceholder');
-    element.innerHTML = '<a href="mailto:' + user + '@' + domain + '">Contact Me</a>';
+    element.innerHTML = '<a style="color:white" href="mailto:' + user + '@' + domain + '">Contact Me</a>';
 });
