@@ -151,3 +151,17 @@ iframe {
 ul {
     margin-top: 10px;
 }
+
+.personal-image {
+    transition: 0.3s;
+}
+
+.personal-image:hover {
+    cursor: pointer;
+    box-shadow: 10px 5px 15px #999999;
+    transition: 0.3s;
+}
+
+.iframe {
+    border: none;
+}
